@@ -16,11 +16,11 @@ $$ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp(-\frac{(x-\mu)^2}{2\sigma^2}), x\in 
 则称 $$X$$ 服从参数为 $$ (\mu ,\sigma ^2) $$ 的正态分布, 记作 $$ X\sim N (\mu ,\sigma ^2) $$.
 
 
-**伽马分布 (Gamma Distribution)** $$ \Gamma(\alpha ,\beta ) $$: 设 $$\alpha $$, $$\beta $$ 是正常数，如果 $$X$$ 的概率密度是
+**伽马分布 (Gamma Distribution)** $$ \varGamma(\alpha ,\beta ) $$: 设 $$\alpha $$, $$\beta $$ 是正常数，如果 $$X$$ 的概率密度是
 
 $$ f(x)= \begin{cases}
     \frac{\beta ^\alpha}{\Gamma (\alpha )}x^{\alpha -1}e^{-\beta x}, & {x\geqslant 0}\\
     0, & x<0
 \end{cases}$$
 
-则称 $$X$$ 服从参数为 $$ (\alpha ,\beta ) $$ 伽马分布, 记作 $$ X\sim \Gamma (\alpha ,\beta ) $$.
+则称 $$X$$ 服从参数为 $$ (\alpha ,\beta ) $$ 伽马分布, 记作 $$ X\sim \varGamma (\alpha ,\beta ) $$.
