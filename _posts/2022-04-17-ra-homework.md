@@ -1,5 +1,5 @@
 ---
-title: Egorov 定理中的条件 $$ m(E) < + \infty $$ 能否去掉
+title: Egorov 定理中的条件 m(E) < +∞ 能否去掉
 tags: RA
 ---
 
@@ -18,7 +18,7 @@ $$ \forall x, \forall \epsilon > 0, \exists N = [x], \forall n > N, n > x$$, 故
 $$ \forall \delta > 0 $$ 为正常数, 设 $$ f_n(x) $$ 在可测集  $$ E_\delta \subset E$$ 上一致收敛到 0. 
 
 假设$$ m(E_\delta) = + \infty $$, 则显然 $$ E_\delta $$无上界.
-取 $$ \epsilon \in (0,1), \forall N $$, 总有 $$ x \in E_\delta $$且 $$ x > N + 1 $$, 因此存在 $$ n = [x] > N $$,但是 $$ f_n(x) = 1 > \epsilon$$, 与 $$ f_n(x) $$ 在  $$ E_\delta $$ 上一致收敛到 0 矛盾, 因此必有 $$ m(E_\delta) < +\infty$$.
+取 $$ \epsilon \in (0,1), \forall N $$, 总有 $$ x \in E_\delta $$且 $$ x > N + 1 $$, 因此存在 $$ n = [x] > N $$, 使得 $$ f_n(x) = 1 > \epsilon$$, 与 $$ f_n(x) $$ 在  $$ E_\delta $$ 上一致收敛到 0 矛盾, 因此必有 $$ m(E_\delta) < +\infty$$.
 
 故 $$ m(E - E_\delta) = m(E) - m(E_\delta) = + \infty > \delta$$.
 
